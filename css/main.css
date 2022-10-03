@@ -175,8 +175,26 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width: 45em) {
+    .form_container {
+      width: 60%;
+      height: fit-content;
+      padding: 5% 5% 0 5%;
+      margin-top: 2%;
+      border: 1px solid #222222;
+      border-radius: 5px;
+    }
+}
+
+@media only screen and (min-width: 1em) and (max-width: 45em){
+    .form_container {
+      width: 70%;
+      height: fit-content;
+      padding: 5% 5% 0 5%;
+      margin-top: 2%;
+      border: 1px solid #222222;
+      border-radius: 5px;
+    }
 }
 
 @media print,
