@@ -1,0 +1,7 @@
+
+*.json
+node_modules/
+.cache/
+.idea/
+css/
+dist/
